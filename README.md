@@ -17,3 +17,9 @@ for this repo.
 - Use `drf` to create crud for that model.
 - Use Postgres for database.
 - Use `Postman` for testing the APIs and when they work flawlessly generate documentations with postman docs.
+
+#### 2) Add a `BusinessEmployee` model
+
+- the model itself has `business`(foreign-key), `employee`(foreign-key) and `is_owner` for now.
+- Use `drf` to create crud for that model.
+- creating a business should handle an array called employees which creates BusinessEmployee instances and Employee instances.
